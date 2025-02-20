@@ -31,5 +31,7 @@ export default defineNuxtConfig({
     '@nuxt/image'
   ],
 
+  plugins: ['~/plugins/scrollreveal.client.ts'],
+
   compatibilityDate: '2025-02-19'
 })
