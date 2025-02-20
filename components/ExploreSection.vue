@@ -4,19 +4,17 @@
       <img 
         src="/assets/explore.png" 
         alt="explore" 
-        v-scroll-reveal="exploreImageOptions"
+        
       />
     </div>
     <div class="explore__content">
       <h1 
         class="section__header"
-        v-scroll-reveal="exploreTitleOptions"
       >
         We Serve Healthy & Tasty Food
       </h1>
       <p 
         class="section__description"
-        v-scroll-reveal="exploreDescOptions"
       >
         Indulge guilt-free with our commitment to serving wholesome and
         delicious meals. Explore a menu curated to balance taste and
@@ -24,7 +22,6 @@
       </p>
       <div 
         class="explore__btn"
-        v-scroll-reveal="exploreBtnOptions"
       >
         <button class="btn">
           Explore Story <span><i class="ri-arrow-right-line"></i></span>
@@ -35,22 +32,5 @@
 </template>
 
 <script setup>
-const { getScrollRevealOptions } = useScrollReveal()
 
-const exploreImageOptions = getScrollRevealOptions({
-  origin: 'left',
-  distance: '100px',
-})
-
-const exploreTitleOptions = getScrollRevealOptions({
-  delay: 500,
-})
-
-const exploreDescOptions = getScrollRevealOptions({
-  delay: 1000,
-})
-
-const exploreBtnOptions = getScrollRevealOptions({
-  delay: 1500,
-})
 </script>

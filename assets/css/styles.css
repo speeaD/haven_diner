@@ -9,10 +9,10 @@
 
 @font-face {
   font-family: "Vonique64";
-  src: url(./font/vonique-64/Vonique64.ttf) format("truetype"),
-    url(./font/vonique-64/Vonique\ 64\ Bold.ttf) format("truetype"),
-    url(./font/vonique-64/Vonique\ 64\ Italic.ttf) format("truetype"),
-    url(./font/vonique-64/Vonique\ 64\ Bold\ Italic.ttf) format("truetype");
+  src: url(../font/vonique-64/Vonique64.ttf) format("truetype"),
+    url(../font/vonique-64/Vonique\ 64\ Bold.ttf) format("truetype"),
+    url(../font/vonique-64/Vonique\ 64\ Italic.ttf) format("truetype"),
+    url(../font/vonique-64/Vonique\ 64\ Bold\ Italic.ttf) format("truetype");
   font-weight: 400;
   font-style: normal;
 }
